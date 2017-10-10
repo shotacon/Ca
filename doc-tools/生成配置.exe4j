@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="5.0.1" transformSequenceNumber="2">
+  <directoryPresets config="C:/Program Files/Java" />
+  <application name="CaLoginCheck" distributionSourceDir="E:/zwsvn/branches/NvBus/5.041_xinjiang_common/client/nova/BIN">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="CaLoginCheck" type="2" iconSet="true" iconFile="E:/Pictures/png/toast.ico" executableDir="." redirectStderr="true" stderrFile="error.log" stderrMode="overwrite" redirectStdout="false" stdoutFile="output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" globalSingleInstance="false" singleInstanceActivate="true" dpiAware="false" amd64="true">
+    <messageSet />
+    <versionInfo include="false" fileVersion="1.0" fileDescription="盛威时代新疆CA证书登录Socket服务" legalCopyright="" internalName="CA证书服务" productName="" companyName="北京盛威时代科技有限公司" productVersion="1.0" />
+  </executable>
+  <splashScreen show="false" width="0" height="0" bitmapFile="" windowsNative="false" textOverlay="false">
+    <text>
+      <statusLine x="20" y="20" text="" fontSize="8" fontColor="0,0,0" bold="false" />
+      <versionLine x="20" y="40" text="version %VERSION%" fontSize="8" fontColor="0,0,0" bold="false" />
+    </text>
+  </splashScreen>
+  <java mainClass="pkcs.GetUser" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="" bundleRuntime="true" minVersion="1.8" maxVersion="" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <directory location="C:/Program Files/Java/jdk1.8.0_45" />
+    </searchSequence>
+    <classPath>
+      <archive location="C:/Users/shotacon/Desktop/ca.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
